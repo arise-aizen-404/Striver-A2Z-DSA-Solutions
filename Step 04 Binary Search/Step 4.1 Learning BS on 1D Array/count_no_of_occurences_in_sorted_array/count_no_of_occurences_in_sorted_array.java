@@ -1,4 +1,13 @@
-int startPos = -1;
+
+
+//User function Template for Java
+
+
+
+class Solution {
+    int count(int[] arr, int n, int k) {
+        // code here
+        int startPos = -1;
         int low = 0;
         int high = n - 1;
 
@@ -32,3 +41,5 @@ int startPos = -1;
         endPos = high;
 
         return endPos - startPos + 1;
+    }
+}

@@ -1,12 +1,15 @@
-import java.util.* ;
-import java.io.*; 
 
-public class Solution {
 
-	public static int sqrtN(long N) {
-		/*
-		 * Write your code here
-		 */
+/*You are required to complete
+this function*/
+
+// Function to find square root
+// x: element to find square root
+class Solution
+{
+     long floorSqrt(long N)
+	 {
+		// Your code here
 		int ans = 0;
 		int low = 1;
         int high = (int) N; // Cast N to int for high since the result is expected to be an int
@@ -20,5 +23,5 @@ public class Solution {
             else high = mid - 1;
         }
         return ans;
-	}
+	 }
 }
